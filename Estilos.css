@@ -1,0 +1,224 @@
+.cabezera {
+    background-color: #c6c6c6;
+}
+
+#imgredessociales {
+    width: 40%;
+}
+
+#redes {
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+}
+
+#acercademi {
+    background-color: #c6c6c6;
+    text-align: center;
+}
+
+#acercademi2 {
+    padding:5%;
+}
+
+.fotoperfil {
+    width: 50%;
+    border-radius: 100%;
+    border: 5px solid #C46D7C;
+    padding: 2%;
+    
+}
+
+#nombre {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#profesion {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+#estilo {
+    padding: 2%;
+    background-color: #545454;
+    border: 20px solid #c6c6c6;
+    border-radius: 3.20rem;
+    align-self: center;
+}
+
+
+#acercademih2 {
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: 3px overline #C11435;
+    color:#c6c6c6;
+   
+}
+
+#acercademip {
+    text-align: justify;
+    color: #c6c6c6;
+    font-size: 1rem;
+    font-family: monospace;
+
+}
+
+#componentes {
+    background-color: #c6c6c6;
+    padding: 1%;
+}
+
+
+
+#experiencia, #educacion, #skills, #proyectos {
+    background-color: #737373;
+    padding: 3%;
+    border: 2px solid;
+    border-radius: 1.2rem;
+}
+
+.expformato {
+    font-size: 1.7rem;
+    color: #dee2e6;
+    text-decoration: line-through;
+    font-family: monospace;
+    text-decoration-thickness: from-font;
+    text-decoration-color: #dc3545cc;
+}
+
+.accordion-button:not(.collapsed) {
+color: #dc3545;
+font-weight: bold;
+background-color: #c6c6c6;
+box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #dee2e6;
+}
+
+.accordion-button {
+    color: #dc3545;
+    font-weight: bold;
+    background-color: #c6c6c6;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #dee2e6;
+    }
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+}
+
+.progress {
+    --bs-progress-bg: #f8f9fa;
+}
+
+.skills {
+    font-size: 1rem;
+    font-family: monospace;
+    color:#f8f9fa;
+    padding: 2%;
+}
+
+@media (min-width: 576px) {
+
+    .fotoperfil {
+        width: 90%;
+        border-radius: 100%;
+        border: 5px solid #C46D7C;
+        padding: 5%;
+        
+    }
+
+    .expformato {
+        font-size: 2rem;
+        text-decoration: line-through;
+        font-family: monospace;
+        text-decoration-thickness: from-font;
+        text-decoration-color: #dc3545cc;
+    }
+    
+    .accordion-button {
+        color: #dc3545;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: #c6c6c6;
+        box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #dee2e6;
+        }
+
+    .accordion-body p{
+        font-size: 1.2rem;
+    }
+
+    .skills {
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    #acercademih2 {
+        font-family: monospace;
+        font-size: 2.3rem;
+        font-weight: bold;
+        text-decoration: 5px overline #C11435;
+        color:#c6c6c6;
+       
+    }
+
+    #nombre {
+        text-align: center;
+        margin-top: 10%;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 2.5rem;
+        font-weight: bold;
+    
+    }
+
+    #acercademip {
+        text-align: justify;
+        color: #c6c6c6;
+        font-size: 2rem;
+        font-family: monospace;
+    
+    }
+
+    #profesion {
+        text-align: center;
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+    }
+
+    .accordion-button {
+        font-size: 1.7rem;
+    }
+    .text-center {
+        font-size: 1.3rem;
+     }
+ 
+
+}
+
+@media (min-width: 1440px) {
+    .skills {
+        font-size: 1.5rem;
+    }
+
+    .expformato {
+        font-size: 2.5rem;
+    }
+
+    .accordion-body p {
+        font-size: 1.5rem;
+    }
+
+    .text-center {
+        font-size: 1.5rem;
+     }
+
+    
+}
+
